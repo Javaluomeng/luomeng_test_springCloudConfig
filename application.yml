@@ -8,7 +8,7 @@ server:
 spring:
   application:
     name: MICRO-SERVER-DEV
-  profiles: dec  # 这是一个开发环境
+  profiles: dev  # 这是一个开发环境
 
 ---
 server:
