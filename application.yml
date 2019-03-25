@@ -2,10 +2,9 @@ spring：
   profiles：
     active：
       - dev
-      
 ---
 server:
-  port: 3355
+  port: 8003
 spring:
   application:
     name: MICRO-SERVER-DEV
@@ -18,4 +17,3 @@ spring:
   application:
     name: MICRO-SERVER-TEST
   profiles: test  # 测试环境
-  
